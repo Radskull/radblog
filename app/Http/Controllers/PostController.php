@@ -20,7 +20,7 @@ class PostController extends Controller
         // Example of SQL queries instead of eloquent, unncomments use DB; up top --- $posts = DB::select('SELECT * FROM posts');
         // $posts = Post::orderBy('title','desc')->take(1)->get();
         
-        $posts = Post::orderBy('title','desc')->paginate(10);
+        $posts = Post::orderBy('created_at','desc')->paginate(2);
         return view('posts/index')->with('posts', $posts);
     }
 

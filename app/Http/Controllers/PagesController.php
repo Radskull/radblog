@@ -14,14 +14,14 @@ class PagesController extends Controller
     }
 
  	public function about(){
-      $title = 'About Us';
+      $title = 'About Me';
     	return view('pages/about')->with('title',$title);
     }
 
     public function services(){
       $data = array(
         'title' => 'Services Page',
-        'services' => ['Web Design', 'Programming', 'SEO']
+        'services' => ['Web Design', 'Database Administration', 'Other Stuff']
       );
     	return view('pages/services')->with($data);
     }
