@@ -10,7 +10,9 @@
       </div>
     @endforeach
     <br>
+    <div class="pagination justify-content-center">
     {{$posts->links()}}
+    </div>
   @else
       <p> No posts found</p>
   @endif

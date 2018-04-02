@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+  @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -40,7 +40,7 @@
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+          box-sizing: border-box;  
 }
 
 html {
@@ -179,7 +179,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #20c997;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -2830,8 +2830,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #20c997;
+  border-color: #20c997;
 }
 
 .btn-primary:hover {
@@ -2910,8 +2910,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
 }
 
 .btn-success:hover {
@@ -4867,7 +4867,8 @@ tbody.collapse.show {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: #343a40;
+  font-weight: bold;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -5230,7 +5231,7 @@ tbody.collapse.show {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #20c997;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -5267,8 +5268,8 @@ tbody.collapse.show {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #6c757d;
+  border-color: #6c757d;
 }
 
 .page-item.disabled .page-link {
@@ -5440,7 +5441,7 @@ tbody.collapse.show {
   background-color: #e9ecef;
   border-radius: 0.3rem;
   background-image: url("../img/wallpaperskull.jpg");
-  background-size: cover;
+  background-size: 20%;
 }
 
 @media (min-width: 576px) {
@@ -6717,6 +6718,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
+  background: linear-gradient(#343a40, #f5f8fa);
   background-color: #343a40 !important;
 }
 
