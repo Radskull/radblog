@@ -13,8 +13,8 @@
         <div class="container mt-4">
             @yield('content')
         </div>
-        <div class="footer">
+{{--         <div class="footer">
             <p>Radskull Inc.</p>
-        </div>
+        </div> --}}
     </body>
 </html>

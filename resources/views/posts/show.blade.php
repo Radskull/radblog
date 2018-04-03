@@ -10,5 +10,5 @@
     {{$post->body}}
   </div>
   <hr>
-  <small>Written on {{$post->created_at}}</small>
+  <small>Written on {{$post->created_at->format('F jS Y')}} at {{$post->created_at->format('g:i a')}}</small>
 @endsection
