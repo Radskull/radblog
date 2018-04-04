@@ -5,11 +5,11 @@
   {!! Form::open(['action' => 'PostsController@store', 'method' => 'POST']) !!}
     <div class="form-group">
       {{Form::label('title', 'Title')}}
-      {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Title'])}}
+      {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Enter Title Here'])}}
     </div>
     <div class="form-group">
       {{Form::label('body', 'Body')}}
-      {{Form::textarea('body', '', ['class' => 'form-control', 'placeholder' => 'Body Text'])}}
+      {{Form::textarea('body', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Enter Text Body Here'])}}
     </div>
     {{Form::submit('Submit', ['class'=>'btn-primary btn'])}}
   {!! Form::close() !!}
